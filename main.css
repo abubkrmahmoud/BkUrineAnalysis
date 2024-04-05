@@ -1,0 +1,153 @@
+@font-face {
+    font-family:"Cairo-Regular";
+    src: url("Cairo-Regular.ttf");
+}
+*{font-family: 'Cairo-Regular',  Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+   user-select: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #6667ab;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0px  0px 30px 30px;
+    font-size: 22px;
+}
+header div h3{
+    margin: 5px;
+}
+
+section div{
+    text-align: center  ;
+    margin: 5px 5px;
+}
+.imgy{
+    /* margin: 10px 0px; */
+    display: inline-block;
+    margin: 15px 10px;
+    width: 95%;
+    border-radius: 30px;
+}
+.divcontainer{
+   
+   
+    border-radius: 30px;
+    box-shadow:0px 5px 10px gray;
+    padding-bottom: 18px;
+    margin: 15px 5px;
+}
+@media (min-width: 1200px) {
+    .divcontainer{
+   
+    
+        border-radius: 30px;
+     
+        padding-bottom: 18px;
+        margin: 20px 250px;
+    }
+    .imgy{
+        /* margin: 10px 0px; */
+        display: inline-block;
+        margin: 15px 130px  20px 240px;
+        width: 65%;
+        
+    }
+  }
+
+.title{
+    font-size: 24px;
+    background-color: #b15f06d6;
+    display: inline-block;
+    color: white;
+    padding: 15px 10px;
+    margin: 15px auto 0px auto;
+    font-weight: 700;
+    width: 85%;
+    border-radius: 30px;
+}
+.bottum{
+    font-size: 20px;
+    background-color: #6667ab;
+    display: inline-block;
+    color: white;
+    padding: 15px 10px;
+    margin: 15px auto 0px auto;
+    width: 85%;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.5s ease;
+   
+}
+.bottum:hover{
+ padding:  17px ;
+ color: #09f5d5;
+ 
+}
+.bottum:checked{
+    background-color: #039581;
+
+}
+.spany{
+    color:#6667ab ;
+}
+.static{width: 95%;
+    display: inline-block;
+    margin: 15px 10px 10px 10px;
+    /* width: 100%; */
+
+    background-color: #6667ab14;
+    border: 1px solid  #6667ab;
+    border-radius: 15px;
+   
+}
+.para{
+    color: #33335f;
+    margin: 15px 15px;
+    text-align: left;
+    font-size: 22px;
+    
+}
+footer{
+    background-color: #33335f;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+.menu{
+background-color:#b15f06d6;
+padding: 10px;
+color: white;
+}
+.menu a{padding: 5px;
+    border-radius: 20px;
+    color: white;
+    margin:  0 5px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.menu a:hover{
+    font-size: 18px;
+    background-color: #6667ab;
+}
+.colorcon{margin: 0px auto;
+    padding: 0px;
+    height: 20px;
+    width: 90%;
+
+/* display: inline-block; */
+}
+.imgwidth{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
